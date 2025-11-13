@@ -306,6 +306,7 @@ body{
     color: white;
     display: flex;
     justify-content: center;
+    
 }
 
 .plan-container{
@@ -313,13 +314,91 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:400px;
+    gap:100px;
 }
 
 .plan1{
     background-image: radial-gradient(circle, #00256b, #000000);
     border: 1px solid white;
     box-shadow: 0 0 30px 5px rgb(53, 39, 253);
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.plan1 h1 {
+    background-image: linear-gradient(to right, rgb(4, 106, 202),rgb(165, 166, 255));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 300% , 100%;
+    animation: accc 2s linear infinite;
+    text-shadow: 0 0 10px rgb(86, 97, 255);
+}
+
+.acc {
+    padding: 20px;
+    font-weight: 300;
+    width: 100%;
+
+}
+
+.acc .acc1{
+    background-image: linear-gradient(to right, rgb(255, 255, 255),rgb(9, 46, 212));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: accc 2s linear infinite;
+}
+
+.acc .acc2,.acc3,.acc4,.acc5{
+    opacity: 0.5;
+}
+
+.plan1 h2{
+    color: #1c1cca;
+    text-shadow: 0 0 10px rgb(0, 68, 255);
+    
+}
+
+.btnbuy1{
+    height: 50px;
+    width: 200px;
+    border: 0.5px solid white;
+    background-image: linear-gradient(to right, #020202,#001755);
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+.mounth1{
+    display: flex;
+    gap: 20px;
+
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.mounth1 button{
+    height: 30px;
+    width: 100px;
+   background-image: linear-gradient(to right, rgb(17, 17, 17), rgb(0, 175, 0));
+   border: 1px solid white;
+   border-radius: 5px;
+   color: white;
+}
+
+
+
+.plan2{
+    background-image: radial-gradient(circle, #29006b, #000000);
+    border: 1px solid white;
+    box-shadow: 0 0 30px 5px rgb(132, 39, 253);
     width: 400px;
     height: 550px;
     border-radius: 20px;
@@ -337,6 +416,137 @@ body{
 
 }
 
-.acc .acc2,.acc3,.acc4,.acc5{
+.plan2 h1{
+    background-image: linear-gradient(to right, rgb(179, 4, 202),rgb(255, 165, 247));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 300% , 100%;
+    animation: accc 2s linear infinite;
+    text-shadow: 0 0 10px rgb(241, 86, 255);
+}
+
+.acc .acc11,.acc21,.acc31{
+    background-image: linear-gradient(to right, rgb(202, 4, 202),rgb(234, 165, 255));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 300% , 100%;
+    animation: accc 2s linear infinite;
+    text-shadow: 0 0 10px rgb(255, 86, 255);
+}
+
+@keyframes accc{
+    0%{
+        background-size: 0% , 0%;
+    }
+    100%{
+        background-size: 300% , 100%;
+    }
+}
+
+.acc .acc41,.acc51{
     opacity: 0.5;
+}
+
+.plan2 h2{
+    color: #be26ec;
+    text-shadow: 0 0 10px rgb(212, 0, 255);
+    
+}
+
+.btnbuy2{
+    height: 50px;
+    width: 200px;
+    border: 0.5px solid white;
+    background-image: linear-gradient(to right, #020202,#a012ff);
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+.mounth2{
+    display: flex;
+    gap: 20px;
+
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.plan3{
+    background-image: radial-gradient(circle, #374100, #000000);
+    border: 1px solid white;
+    box-shadow: 0 0 30px 5px rgb(221, 253, 39);
+    width: 400px;
+    height: 550px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.acc {
+    padding: 20px;
+    font-weight: 300;
+    width: 100%;
+
+}
+
+.plan3 h1{
+    background-image: linear-gradient(to right, gold,rgb(255, 236, 127));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 300% , 100%;
+    animation: accc 2s linear infinite;
+    text-shadow: 0 0 10px gold;
+}
+
+.acc .acc111,.acc211,.acc311,.acc411,.acc511{
+    background-image: linear-gradient(to right, rgb(215, 236, 20),rgb(241, 255, 160));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 300% , 100%;
+    animation: accc 2s linear infinite;
+    text-shadow: 0 0 10px rgb(255, 86, 255);
+}
+
+@keyframes accc{
+    0%{
+        background-size: 0% , 0%;
+    }
+    100%{
+        background-size: 300% , 100%;
+    }
+}
+
+
+
+.plan3 h2{
+    color: #ecfa2e;
+    text-shadow: 0 0 10px gold;
+    
+}
+
+.btnbuy3{
+    height: 50px;
+    width: 200px;
+    border: 0.5px solid white;
+    background-image: linear-gradient(to right, #020202,#e7ff12);
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}
+.mounth3{
+    display: flex;
+    gap: 20px;
+
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
