@@ -317,6 +317,11 @@ body{
     border-top: 1px solid white;
     padding-top: 20px;
     border-inline-start: #0011ff;
+
+    background-image: 
+    linear-gradient(90deg, rgba(71, 71, 71, 0.1) 1px, transparent 1px),
+    linear-gradient(180deg, rgba(97, 97, 97, 0.1) 1px, transparent 1px);
+  background-size: 30px 30px;
     
 }
 
@@ -326,7 +331,8 @@ body{
     justify-content: center;
     align-items: center;
     gap:100px;
-   
+    margin: 0 50px 0  50px;
+   background: transparent;
 }
 
 .plan1{
@@ -638,7 +644,7 @@ body{
 }
 
 .services-head{
-    height: 30vh;
+    height: 35vh;
     width: 100%;
 
     
@@ -674,9 +680,8 @@ body{
     width: 70px;
     background-color: purple;
     border-radius: 10px;
-    border: 1px solid white;
-    background-image: url(./image/gg1.png), radial-gradient(circle, rgb(252, 55, 252),rgb(29, 28, 29));
-    background-size: contain;  
+    background-image: url(./image/gg1.png), radial-gradient(circle, rgb(83, 19, 83),rgb(29, 28, 29));
+    background-size: 110px;  
     background-repeat: no-repeat; 
     background-position: center;
     background-color: white;
@@ -713,8 +718,8 @@ body{
 
 .service1 button{
    
-    height: 40px;
-    width: 130px;
+    height: 45px;
+    width: 140px;
     margin-left: 160px;
     border: 1px white solid;
     border-radius: 10px;
@@ -722,6 +727,9 @@ body{
     color: white;
     box-shadow: 0 0 30px 5px rgb(220, 44, 255);
     margin-top: 15px;
+    font-weight: bolder;
+    font-size: 17px;
+    
     
 }
 
@@ -747,7 +755,7 @@ body{
     border-radius: 10px;
     border: 1px solid white;
     background-image: url(./image/pngwing.com.png), radial-gradient(circle, rgb(58, 55, 252),rgb(14, 12, 48));
-    background-size: contain;  
+    background-size: 100px;  
     background-repeat: no-repeat; 
     background-position: center;
     background-color: white;
@@ -782,15 +790,17 @@ body{
 }
 
 .service2 button{
-    height: 40px;
+    height: 45px;
     width: 140px;
     margin-left: 160px;
     border: 1px white solid;
     border-radius: 10px;
-    background-image: linear-gradient(to right, #0011ff,#696da8);
+    background-image: linear-gradient(to right, #002fff,#1757b8);
     color: white;
-    box-shadow: 0 0 30px 5px rgb(58, 44, 255);
+    box-shadow: 0 0 30px 5px rgb(44, 58, 255);
     margin-top: 15px;
+    font-weight: bolder;
+    font-size: 17px;
 }
 
 
@@ -851,15 +861,17 @@ body{
 }
 
 .service3 button{
-    height: 40px;
-    width: 130px;
-    margin-left: 170px;
+    height: 45px;
+    width: 140px;
+    margin-left: 160px;
     border: 1px white solid;
     border-radius: 10px;
-    background-image: linear-gradient(to right, #ff0000,#a76161);
+    background-image: linear-gradient(to right, #ff0000,#e62626);
     color: white;
     box-shadow: 0 0 30px 5px rgb(255, 44, 44);
     margin-top: 15px;
+    font-weight: bolder;
+    font-size: 17px;
 }
 
 
@@ -950,15 +962,17 @@ body{
 
 .service4 button{
    
-    height: 40px;
-    width: 130px;
+    height: 45px;
+    width: 140px;
     margin-left: 160px;
     border: 1px white solid;
     border-radius: 10px;
-    background-image: linear-gradient(to right, #00ff00,#69a86e);
+    background-image: linear-gradient(to right, #00ff0d,#24ac2b);
     color: white;
-    box-shadow: 0 0 30px 5px rgb(62, 255, 44);
+    box-shadow: 0 0 30px 5px rgb(44, 255, 62);
     margin-top: 15px;
+    font-weight: bolder;
+    font-size: 17px;
     
 }
 
@@ -1019,18 +1033,25 @@ body{
 }
 
 .service5 button{
-    height: 40px;
+    height: 45px;
     width: 140px;
     margin-left: 160px;
     border: 1px white solid;
     border-radius: 10px;
-    background-image: linear-gradient(to right, #ffee00,#a2a869);
+    background-image: linear-gradient(to right, #fffb00,#cfcc15);
     color: white;
-    box-shadow: 0 0 30px 5px rgb(241, 255, 44);
+    box-shadow: 0 0 30px 5px rgb(255, 241, 44);
     margin-top: 15px;
+    font-weight: bolder;
+    font-size: 17px;
 }
 
 
 
-
+.head-ser{
+    background-image: 
+    linear-gradient(90deg, rgba(71, 71, 71, 0.1) 1px, transparent 1px),
+    linear-gradient(180deg, rgba(97, 97, 97, 0.1) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
 
